@@ -166,6 +166,14 @@
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-simple</artifactId>
             <version>1.6.1</version>
+            <!--gyjadd start-->
+     <exclusions>
+        <exclusion>
+          <groupId>org.slf4j</groupId>
+          <artifactId>slf4j-api</artifactId>
+        </exclusion>
+      </exclusions>
+<!--gyjaddend-->
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
