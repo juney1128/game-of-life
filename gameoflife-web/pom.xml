@@ -55,6 +55,7 @@
                     </archive>
                 </configuration>
             </plugin>
+			<!--
             <plugin>
                 <groupId>net.serenity-bdd.maven.plugins</groupId>
                 <artifactId>serenity-maven-plugin</artifactId>
@@ -69,6 +70,7 @@
                     </execution>
                 </executions>
             </plugin>
+			-->
         </plugins>
     </build>
     <profiles>
